@@ -20,9 +20,9 @@ divisao = num_1 / num_2
 print(f'{divisao:.2f}')
 
 nome = 'Heraldo Cruz'
-nome_formatado = '{:@>50}'.format(nome)
+nome_formatado = f'{nome:@>50}'
 print(nome_formatado)
 
-#print(len(nome))
+# print(len(nome))
 
-#print(f'{nome:#^50}')
+# print(f'{nome:#^50}')
