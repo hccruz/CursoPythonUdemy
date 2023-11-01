@@ -10,8 +10,8 @@ print(1234)
 
 # Aspas simples
 
-print('Heraldo Candido da Cruz')
-print(1, 'Heraldo "Candido" da Cruz')
+# print('Heraldo Candido da Cruz')
+# print(1, 'Heraldo "Candido" da Cruz')
 
 # Aspas duplas
 
