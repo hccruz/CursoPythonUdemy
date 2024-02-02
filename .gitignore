@@ -360,3 +360,5 @@ lib/python3.11/site-packages/setuptools-65.5.0.dist-info/LICENSE
 lib/python3.11/site-packages/setuptools-65.5.0.dist-info/METADATA
 lib/python3.11/site-packages/setuptools-65.5.0.dist-info/top_level.txt
 lib/python3.11/site-packages/setuptools-65.5.0.dist-info/WHEEL
+aula141/__pycache__/eletronico.cpython-311.pyc
+aula141/__pycache__/log.cpython-311.pyc
