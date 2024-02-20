@@ -18,5 +18,5 @@ p2 = Pessoa('Renata', 45)
 p3 = Pessoa('Giovane', 18)
 bd = [vars(p1), p2.__dict__, vars(p3)]
 
-with open(CAMINHO_ARQUIVO, 'w', encoding='uft8') as arquivo:
+with open(CAMINHO_ARQUIVO, 'w', encoding='utf-8') as arquivo:
     json.dump(bd, arquivo, ensure_ascii=False, indent=2)
