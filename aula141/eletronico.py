@@ -1,5 +1,6 @@
 from log import LogFileMixin
 
+
 class Eletronico:
     def __init__(self, nome):
         self._nome = nome
@@ -21,7 +22,7 @@ class Smartphone(Eletronico, LogFileMixin):
         if self._ligado:
             msg = f'{self._nome} está ligado.'
             self.log_sucess(msg)
- 
+
     def desligar(self):
         super().desligar()
 

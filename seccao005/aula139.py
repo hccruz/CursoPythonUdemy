@@ -13,26 +13,33 @@ Classe filhas (Cliente)
 # string = MinhaString('Heraldo')
 # print(string.upper())
 
+
 class A:
     atributo_a = 'valor a'
 
     def metodo(self):
         print('A')
 
+
 class B(A):
     atributo_b = 'valor b'
-    
+
     def metodo(self):
         print('B')
 
+
 class C(B):
     atributo_c = 'valor c'
-    
+
     def metodo(self):
         super(B, self).metodo()
         super(C, self).metodo()
         print('C')
 
+
+print(C.mro())
+print(B.mro())
+print(A.mro())
 c = C()
 print(c.atributo_a)
 print(c.atributo_b)

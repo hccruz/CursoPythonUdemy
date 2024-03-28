@@ -8,8 +8,10 @@
  Classe principal(Pessoa)
     -> super class, base class, parent class
  Classes filhos(Cliente)
-    -> sub class, child class, derived class 
+    -> sub class, child class, derived class
 '''
+
+
 class Pessoa:
     '''
     ...
@@ -24,18 +26,29 @@ class Pessoa:
         '''
         ...
         '''
+        print('Classe PESSOA')
         print(self.nome, self.sobrenome, self.__class__.__name__)
+
 
 class Cliente(Pessoa):
     '''
     ...
     '''
 
+    def falar_nome_classe(self):
+        '''
+        ...
+        '''
+        print('EITA, nem saí da Classe CLIENTE')
+        print(self.nome, self.sobrenome, self.__class__.__name__)
+
+
 class Aluno(Pessoa):
     '''
     ...
     '''
     cpf = 'cpf aluno'
+
 
 c1 = Cliente('Heraldo', 'Cruz')
 c1.falar_nome_classe()
