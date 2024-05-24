@@ -16,6 +16,7 @@
 # valor = Classe.chave.value
 import enum
 
+
 class Direcoes(enum.Enum):
     ESQUERDA = enum.auto()
     DIREITA = enum.auto()

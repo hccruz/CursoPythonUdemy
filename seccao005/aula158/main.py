@@ -8,7 +8,7 @@ Conta(ABC)
     ContaCorrente
     ContaPoupança
 
-Pessoa(ABC)
+Pessoa()
     Cliente
         Cliente -> Conta
 
